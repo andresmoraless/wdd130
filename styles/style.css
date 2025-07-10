@@ -1,0 +1,121 @@
+
+body {
+    background: ivory;
+    background-image: url("../images/background.jpeg");
+    background-repeat: repeat;
+}
+
+#wrapper {
+    background: ivory;
+    width: 900px;
+    margin: auto;
+    border: 3px solid #384856;
+    border-radius: 10px;
+}
+
+header {
+    background-image: url("../images/wwering.jpg");
+    background-position: 0 310px;
+    padding:30px;
+}
+
+header img {
+    width: 100px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 3em;
+    float: right;
+    color: #E6E1C6
+}
+
+nav {
+    background: #384856;
+    border: 4px solid #2e7168;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #aecbbc;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    background: #2e7168;
+    text-shadow: 4px 4px 2px #384856;
+}
+
+footer form {
+    background: #E6E1C6;
+    width: 150px;
+    padding: 10px;
+    border: 3px dotted #384856;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+section {
+    border: 3px solid #384856;
+    background: #E6E1C6;
+    width: 30%;
+    float: left;
+    padding: 10px 30px;
+    box-sizing:border-box;
+    margin: 10px 15px;
+}
+
+section img {
+    width: 200px;
+}
+
+table {
+    clear: both;
+}
+
+table.blueTable {
+    border-collapse: collapse;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #5EA4A2;
+  }
+  table.blueTable thead {
+    background: #2E7186;
+    background: -moz-linear-gradient(top, #6294a4 0%, #437f92 66%, #2E7186 100%);
+    background: -webkit-linear-gradient(top, #6294a4 0%, #437f92 66%, #2E7186 100%);
+    background: linear-gradient(to bottom, #6294a4 0%, #437f92 66%, #2E7186 100%);
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
